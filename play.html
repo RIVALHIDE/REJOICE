@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div id="pop-up-div">
+        <h1>Play a Game</h1>
+        <div id="choice-game">
+            <button onclick="gameplay1();" id="yes">Yes</button>
+            <button onclick="gameplay2();" id="no">No</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="panel">
+            <div class="paneltop">
+                <div class="elem">
+                    <h4>HIT</h4>
+                    <div id="hit" class="box">5</div>
+                </div>
+
+                <div class="elem">
+                    <h4>TIMER</h4>
+                    <div id="timeval" class="box">60</div>
+                </div>
+                <div class="elem">
+                    <h4>SCORE</h4>
+                    <div id="score"class="box">
+                        0
+                    </div>
+                </div>
+            </div>
+            <div class="pbtm">
+               
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
